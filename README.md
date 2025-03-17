@@ -33,12 +33,13 @@ A frontend-only project replicating the sign-in flow and related pages of Amazon
 ```
 
 ## 📷 Screenshots
-- **Sign-In Pge**
+- **Sign-In Page**
 ![image](https://github.com/user-attachments/assets/3c71fe68-e2aa-4c7e-bda9-aa8b412b9e9c)
 - **Home Page**
 ![image](https://github.com/user-attachments/assets/70d61a85-44bf-4351-8e6c-cfacd1256fd4)
 ![image](https://github.com/user-attachments/assets/c01ae171-c35e-4b2b-bd12-8337fa923b9a)
 ![image](https://github.com/user-attachments/assets/f585f798-08bd-42ad-80c8-1de160e6b03e)
+- **Other Page are also similar** (can download this repository for those and check)
 
 
 ## 📜 License
