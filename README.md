@@ -13,14 +13,23 @@ A frontend-only project replicating the sign-in flow and related pages of Amazon
 
 ## 📂 Folder Structure
 ```
-/project-root
-├── /images         # Contains all images
-├── /css            # Stylesheets for UI design
-├── /js             # JavaScript files (if any)
-├── /pages          # Separate HTML pages (Sign-In, Create Account, etc.)
-├── index.html      # Main home page
-├── README.md       # Project description
-├── .gitignore      # Ignore unnecessary files
+/Amazon-clone
+├── /images                     
+├── Conditions-of-Use.css
+├── Conditions-of-Use.html
+├── Home.css
+├── Home.html
+├── Privacy-Notice.css
+├── Privacy-Notice.html
+├── README.md                    
+├── Signin.css
+├── Signin.html
+├── Verify.css
+├── Verify.html
+├── amazon-business.css
+├── amazon-business.html
+├── new-account.css
+└── new-account.html                    
 ```
 
 ## 📷 Screenshots
