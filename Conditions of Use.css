@@ -1,0 +1,23 @@
+.conditions{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 770px;
+    margin: auto;
+}
+.conditions h1{
+    text-align: center;
+}
+.conditions p, h1{
+    margin: 10px;
+}
+.conditions input[type="submit"]
+{
+    background-color: white;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.conditions input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(199, 195, 195);
+}

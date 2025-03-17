@@ -1,0 +1,312 @@
+.nav{
+    display: flex;
+    background-color: rgb(0, 6, 41);
+    color: whitesmoke;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.nav h1 {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.nav sub {
+    margin-top: 25px;
+}
+.location {
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: rgba(0, 6, 41, 0.926);
+    color: whitesmoke;
+    margin-left: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 240px;
+}
+.location:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+.location select{
+    margin: 5px;
+    margin-left: 5px;
+}
+.location select:hover{
+    cursor:pointer;
+}
+.search{
+    width: 700px;
+    margin-left: 23px;
+    margin-top: 12px;  
+    margin-bottom: 15px; 
+    color: black;
+}
+.search input[type="search"]{
+    height: 30px;
+    width: 700px;
+    color: rgb(116, 108, 108);
+    border: 2.5px solid rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 5px;
+    /* margin-left: 95px; */
+}
+.search input[type="search"]:hover{
+    height: 30px;
+    width: 700px;
+    color: rgb(116, 108, 108);
+    border: 2px solid orange;
+
+}
+.India img{
+    margin-top: 20px;
+    margin-left: 23px;
+    width: 25px;
+    height: 15px;
+}
+.EN{
+    margin-top: 18px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+.signin a{
+    color: white;
+    text-decoration: none;
+}
+.signin p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 23px;
+    width: 120px;   
+}
+.signin:hover{
+    margin: 2px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.orders p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 23px;
+    width: 60px;
+}
+.orders:hover{
+    margin: 2px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+svg{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+svg:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.nav1{
+    background-color: rgb(39, 46, 61);
+    display: flex;
+    width: 100%;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 45px;
+}
+.all{
+    margin-left: 32px;
+    padding-bottom: 30px;
+    width: 20px;
+}
+.all:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.mx{
+    margin-left: 32px;
+    width: 78px;
+}
+.mx:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.sales{
+    margin-left: 32px;
+    width: 41px;
+}
+.sales:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.mobiles{
+    margin-left: 32px;
+}
+.mobiles:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.prime{
+    margin-left: 32px;
+}
+.prime:hover{
+        border: 1px solid white;
+        cursor: pointer;
+}
+.customer{
+    margin-left: 32px;
+}
+.customer:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.electronics{
+    margin-left: 32px;
+}
+.electronics:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.new{
+    margin-left: 32px;
+}
+.new:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.amazon{
+    margin-left: 32px;
+}
+.amazon:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.home{
+    margin-left: 32px;
+}
+.home:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.fashion{
+    margin-left: 32px;
+}
+.fashion:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.computers{
+    margin-left: 32px;
+}
+.computers:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.books{
+    margin-left: 32px;
+}
+.books:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.car{
+    margin-left: 32px;
+}
+.car:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.main{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+.main .a, .b, .c{
+    width: 500px;
+    height: auto;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.main h1{
+    font-size: 28px; 
+    margin: auto;
+} 
+.item {
+    width: 48%;
+}
+.item img {
+    width: 186px;
+    height: 116px;
+    display: block; 
+    margin: auto;
+}
+.item p{
+    margin: 13px;
+}
+.item:hover{
+    cursor: pointer;
+}
+
+.main1{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+.main1 .a, .b, .c{
+    width: 500px;
+    height: auto;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.main1 h1{
+    font-size: 28px; 
+    margin: auto;
+} 
+.item {
+    width: 48%;
+}
+.item img {    width: 186px;
+    height: 116px;
+    display: block; 
+    margin: auto;
+}
+.item p{
+    margin: 13px;
+}
+.bottom{
+    text-align: center;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.bottom h1{
+    font-size: 25px;
+}
+.bottom p{
+    font-size: 13px;
+}
+input[type="submit"]{
+    background-color: rgb(255, 200, 0);
+    border: 1px none;
+    border-radius: 25px;
+    width: 18%;
+    height: 30px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(212, 166, 1);
+    cursor: pointer;
+}

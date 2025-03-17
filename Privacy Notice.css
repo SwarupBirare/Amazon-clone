@@ -1,0 +1,23 @@
+.privacy{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 770px;
+    margin: auto;
+}
+.privacy h1{
+    text-align: center;
+}
+.privacy p, h1{
+    margin: 10px;
+}
+.privacy input[type="submit"]
+{
+    background-color: white;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.privacy input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(199, 195, 195);
+}

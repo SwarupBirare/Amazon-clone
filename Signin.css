@@ -1,0 +1,92 @@
+body{
+    justify-items: center;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.logo sub{
+    margin-top: 38px;
+}
+form{
+    padding: 20px;
+    width: 300px;
+    height: 310px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+form p{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form input[type="email"]{
+    margin-top: 3px; 
+    width: 97%; 
+    height: 23px; 
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+form input[type="submit"]{
+    margin-top: 13px;
+    width: 99%;
+    height: 30px;
+    background-color: rgb(255, 200, 0);
+    border: 1px none;
+    border-radius: 25px;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(212, 166, 1);
+    cursor: pointer;
+}
+#a{
+    margin-top: 18px;
+    font-size: 11.5px;
+}
+#a a{
+    color: #2965a6;
+}
+#b{
+    margin-top: 18px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+}
+#c {
+    margin-top: 1px;
+}
+#c a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #2965a6;
+}
+#c a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#d{
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.newAccount{
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 340px;
+    height: 25px;
+    padding-top: 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newAccount a{
+    text-decoration: none;
+    color: black;
+}
+.newAccount:hover{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,98 @@
+body{
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: flex;
+}
+.logo sub{
+    margin-top: 38px;
+}
+form{
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+form p{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form b{
+    font-size: 13px;
+}
+form input[type="text"]{
+    margin-top: 3px; 
+    width: 97%; 
+    height: 23px; 
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+form input[type="number"]{
+    margin-top: 3px; 
+    width: 97%; 
+    height: 23px; 
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+form input[type="password"]{
+    margin-top: 3px; 
+    width: 97%; 
+    height: 23px; 
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+button{
+    width: 295px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color:  rgb(255, 200, 0);
+    margin-bottom: 15px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: rgb(212, 166, 1);
+    cursor: pointer;
+}
+#b{
+    margin-top: 18px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+}
+#c {
+    margin-top: 1px;
+}
+#c a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #2965a6;
+}
+#c a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#d {
+    font-size: 13px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+#d a{
+    color: #2965a6;
+    text-decoration: none;
+}
+#e{
+    font-size: 12px;
+}
+#e a{
+    color: #2965a6;
+}
