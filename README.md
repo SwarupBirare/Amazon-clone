@@ -1,4 +1,4 @@
-# Amazon Sign-In Frontend
+# Amazon-clone
 
 A frontend-only project replicating the sign-in flow and related pages of Amazon. This project includes multiple interconnected pages such as Sign-In, Privacy Notice, Conditions, Shop on Amazon Business, and Create New Account.
 
